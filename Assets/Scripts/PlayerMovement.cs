@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         {
             inputMagnitude /= 2;
         }
-        animator.SetFloat("Input Magnitude", inputMagnitude);
+        animator.SetFloat("Input Magnitude", inputMagnitude, 0.05f, Time.deltaTime);
 
         float speed = inputMagnitude * maximumSpeed;
 
@@ -53,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
         movementDirection.Normalize();
         
+        ySpeed += Physics.gravity.y * Time.deltaTime;
         if (characterController.isGrounded)
         {
             lastGroundedTime = Time.time;
@@ -61,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpButtonPressedTime = Time.time;
         }
-        ySpeed += Physics.gravity.y * Time.deltaTime;
         if (Time.time - lastGroundedTime <= jumpButtonGracePeriod)
         {
             characterController.stepOffset = originalStepOffset;
