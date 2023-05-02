@@ -8,7 +8,7 @@ using UnityEngine.InputSystem.Utilities;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float maximumSpeed;
+    
     public float rotationSpeed;
     public float jumpSpeed;
     public float jumpButtonGracePeriod;
@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
         }
         animator.SetFloat("Input Magnitude", inputMagnitude, 0.05f, Time.deltaTime);
 
-        float speed = inputMagnitude * maximumSpeed;
 
         //Normalizar o vetor mantem a magnitute em 1
         movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
@@ -79,9 +78,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //transform.Translate(movementDirection * magnitude * Time.deltaTime * speed, Space.World);
-        Vector3 velocity = movementDirection * speed;
-        velocity.y = ySpeed;
-        characterController.Move(velocity * Time.deltaTime) ;
+        
 
         //Caso o movimento for diferente de zero
         //Rotacionar o objeto de acordo com a direção do movimento
@@ -96,6 +93,13 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("IsMoving", false);
         }
+    }
+    private void OnAnimatorMove()
+    {
+                            //Posição determinada pela animação           
+        Vector3 velocity = animator.deltaPosition;
+        velocity.y = ySpeed * Time.deltaTime;
+        characterController.Move(velocity);
     }
     private void OnApplicationFocus(bool focus)
     {
