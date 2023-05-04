@@ -2379,6 +2379,11 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 1243477499}
+    - target: {fileID: 1199234210808078946, guid: e87f40bd1cceafe4995d1684901b288b,
+        type: 3}
+      propertyPath: m_BindingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1199234210808078947, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_Name
