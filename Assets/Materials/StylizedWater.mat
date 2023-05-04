@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3002450815593700471
+--- !u!114 &-8876623643394948092
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderGraphGrid_01_Mat 2
-  m_Shader: {fileID: -6465566751694194690, guid: b8d7679189d4a5940af46004f3870920,
+  m_Name: StylizedWater
+  m_Shader: {fileID: -6465566751694194690, guid: 8ed3bedbc93b68246ba6a2e2fac61efb,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,8 +34,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_C5E3E723:
-        m_Texture: {fileID: 2800000, guid: d4d6919451fe3e24388816386a6d15a4, type: 3}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -59,9 +59,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d9c0dd5cdac07b145be73329e489869a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.004, y: 0}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,6 +71,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -88,40 +92,50 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Boolean_35A71344: 0
-    - Boolean_7A5F3F39: 1
-    - Boolean_7AC8D832: 1
-    - Vector1_3402D67A: 1
-    - Vector1_3655428E: 5
-    - Vector1_5B05FA1F: 0.408
-    - Vector1_6B67A8FF: -20
-    - Vector1_7810F718: 1
-    - Vector1_B6126E6E: 0.556
-    - Vector1_CA7D5F3: 30
-    - Vector1_D5FBE925: 0.3
-    - Vector1_F2A922B4: 1.73
-    - Vector1_F5FD9210: 33.9
+    - Vector1_0cabdf9419da46c2819d695da1d43d61: 0.88
+    - Vector1_2574c3e60ec541e1b2cdc0b3da9f7d46: 2.45
+    - Vector1_2d37d3762f234c6e86f7ddd016241ff6: 0.9
+    - Vector1_2f38190c5923435498a47d73624a6d52: 16.58
+    - Vector1_93412931283c4b89ad156aa05bf1b2ef: 16.6
+    - Vector1_a09a805fec414264b3cc13d6cb164129: 0.11
+    - Vector1_cdf8c457757f4b3a978b1d7f71819e86: 46.85
+    - Vector1_fda13de8ef74465e9cafc3445c14bd47: 5.61
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
     - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.119
-    - _GlossyReflections: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 0
-    - _Parallax: 0.02
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _UVSec: 0
+    - _Surface: 0
+    - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_2B671050: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
-    - Color_30A0CA2F: {r: 0, g: 0, b: 0, a: 0}
+    - Color_78a44360447b453f93c788adf0ff5bfa: {r: 0.52042866, g: 0.6320754, b: 0.24090421,
+        a: 1}
+    - Color_cd5b87dbf37546ddb5d03b34dd09818c: {r: 0.100425996, g: 0.18867919, b: 0,
+        a: 0.9882353}
+    - Color_d6b9b50388044e59967ad94f7ea7ebc6: {r: 0.33682448, g: 0.49056602, b: 0.0712709,
+        a: 0.13333334}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
