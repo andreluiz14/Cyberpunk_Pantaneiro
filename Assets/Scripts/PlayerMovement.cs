@@ -2,7 +2,6 @@ using Cinemachine.Utility;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.InputSystem.Utilities;
 
@@ -39,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        EncerrarJogo();
+
         float horizontalIpunt = Input.GetAxis("Horizontal");
         float veticalInput = Input.GetAxis("Vertical");
 
@@ -141,6 +142,13 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             Cursor.lockState = CursorLockMode.None;
+        }
+    }
+    private void EncerrarJogo()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }
