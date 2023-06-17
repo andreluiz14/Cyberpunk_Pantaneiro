@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 23
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52
+  controlID: 78
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,9 +411,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 46750000
+      m_SelectedIDs: ec7f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 96eaffff14fbffff
+      m_ExpandedIDs: 70f7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.18910669, y: -0.4485768, z: 0.097720295, w: 0.8680447}
     speed: 2
-    m_Value: {x: 0.19170675, y: -0.44827417, z: 0.099064015, w: 0.86745906}
+    m_Value: {x: -0.18910669, y: 0.44857678, z: -0.097720295, w: -0.8680446}
   m_Size:
     m_Target: 34.40098
     speed: 2
@@ -905,22 +905,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Documents\GitHub\Cyberpunk_Pantaneiro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28750000
-    m_LastClickedID: 29992
-    m_ExpandedIDs: 00000000ee74000000ca9a3b
+    m_SelectedIDs: 007e0000
+    m_LastClickedID: 32256
+    m_ExpandedIDs: 00000000007e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -948,7 +948,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee740000
+    m_ExpandedIDs: 00000000007e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000766e00000c930000227500002675000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
