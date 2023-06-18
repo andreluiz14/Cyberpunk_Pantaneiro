@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1068.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 80
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 72
+  controlID: 61
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba070000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2430feffd2010100
+      m_SelectedIDs: 98730000
+      m_LastClickedID: 29592
+      m_ExpandedIDs: 0afbffff8a720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -822,9 +822,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.3430185, y: 2.1993349, z: -6.062603}
+    m_Target: {x: -9.4056225, y: -12.811588, z: -5.9873385}
     speed: 2
-    m_Value: {x: -4.3430185, y: 2.1993349, z: -6.062603}
+    m_Value: {x: -9.4056225, y: -12.811588, z: -5.9873385}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -870,13 +870,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.013305901, y: 0.97422105, z: -0.21714863, w: -0.059696052}
+    m_Target: {x: -0.14173897, y: 0.84353864, z: -0.27067402, w: -0.44172007}
     speed: 2
-    m_Value: {x: -0.013631604, y: 0.97413003, z: -0.21712835, w: -0.061157294}
+    m_Value: {x: -0.013305901, y: 0.974221, z: -0.21714865, w: -0.059696056}
   m_Size:
-    m_Target: 17.198124
+    m_Target: 31.841087
     speed: 2
-    m_Value: 16.457535
+    m_Value: 30.46994
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1045,16 +1045,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Github_Projetos\Cyberpunk_Pantaneiro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba070000
-    m_LastClickedID: 1978
-    m_ExpandedIDs: 00000000d206000000ca9a3b
+    m_SelectedIDs: c6830000
+    m_LastClickedID: 33734
+    m_ExpandedIDs: 00000000c6830000c8830000ca830000cc83000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1082,7 +1082,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2060000
+    m_ExpandedIDs: 00000000c6830000c8830000ca830000cc830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000766e00000c930000227500002675000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
