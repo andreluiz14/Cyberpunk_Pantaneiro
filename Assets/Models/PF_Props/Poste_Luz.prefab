@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5995968512493881533}
   - component: {fileID: 9139691135650925110}
   - component: {fileID: 3914478564656555117}
+  - component: {fileID: 7994028053482856196}
   m_Layer: 0
   m_Name: Spotlight and Beam
   m_TagString: Untagged
@@ -203,6 +204,32 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &7994028053482856196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611730971466953997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39f0f7e17f11f2448932da58e9b63d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha: 0.5
+  size: 0.01
+  direction: 0
+  velocity: {x: 0, y: 0, z: 0.03}
+  speed: 0.03
+  density: 5
+  spawnDistanceRange:
+    m_MinValue: 0
+    m_MaxValue: 0.7
+  spawnMinDistance: 0
+  spawnMaxDistance: 0.7
+  cullingEnabled: 0
+  cullingMaxDistance: 10
+  m_AlphaAdditionalRuntime: 1
 --- !u!1001 &5237025466149323516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,7 +241,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca7fad6f2ad8e1a47adca97551d4b1b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca7fad6f2ad8e1a47adca97551d4b1b4,
         type: 3}
@@ -274,7 +301,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ca7fad6f2ad8e1a47adca97551d4b1b4,
         type: 3}
       propertyPath: m_Name
-      value: Poste_Luz Variant
+      value: Poste_Luz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
