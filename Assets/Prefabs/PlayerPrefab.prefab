@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 4020658127358694921}
   - component: {fileID: 6705803933003711290}
   m_Layer: 0
-  m_Name: Aj (1)
+  m_Name: PlayerPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,10 +64,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8137610562572656191}
+  - {fileID: 7571250462717867185}
   - {fileID: 4020658127957114570}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &4020658127358694925
 CharacterController:
@@ -173,7 +173,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1001 &8603037250476931540
+--- !u!1001 &7969336500929303386
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -241,20 +241,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: player_rig 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5866666021909216657, guid: 73951e6ddc17bc7469b716b41adc2aba,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c856b110e538248458e8a3b752f9966e, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7869873546869171050, guid: 73951e6ddc17bc7469b716b41adc2aba, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73951e6ddc17bc7469b716b41adc2aba, type: 3}
---- !u!4 &8137610562572656191 stripped
+--- !u!4 &7571250462717867185 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73951e6ddc17bc7469b716b41adc2aba,
     type: 3}
-  m_PrefabInstance: {fileID: 8603037250476931540}
+  m_PrefabInstance: {fileID: 7969336500929303386}
   m_PrefabAsset: {fileID: 0}
