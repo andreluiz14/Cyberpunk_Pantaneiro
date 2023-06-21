@@ -49,7 +49,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 41.72
   m_Range: 5.05
-  m_SpotAngle: 64.318695
+  m_SpotAngle: 105.81792
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -148,7 +148,7 @@ MonoBehaviour:
   intensityOutside: 0.54
   blendingMode: 0
   spotAngleFromLight: 1
-  spotAngle: 64.318695
+  spotAngle: 105.81792
   coneRadiusStart: 0.1
   shaderAccuracy: 0
   geomMeshType: 0

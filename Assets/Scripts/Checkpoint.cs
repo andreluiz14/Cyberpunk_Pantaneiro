@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    [SerializeField] GameObject player;
+    [SerializeField] Transform player;
 
     [SerializeField] List<GameObject> checkpoints;
 
@@ -15,16 +15,16 @@ public class Checkpoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y < -dead)
+        if (player.position.y < dead)
         {
-            player.transform.position = vectorPoint;
+            player.position = vectorPoint;
+            print(dead);
         }
-        print(vectorPoint);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        vectorPoint = player.transform.position;
+        vectorPoint = player.position;
         Destroy(other.gameObject);
     }
 }

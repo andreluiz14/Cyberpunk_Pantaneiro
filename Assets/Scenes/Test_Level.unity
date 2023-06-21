@@ -2148,12 +2148,12 @@ PrefabInstance:
     - target: {fileID: 1210566212266211029, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000020861623
+      value: -0.000000119209275
       objectReference: {fileID: 0}
     - target: {fileID: 1210566212266211029, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000014901159
+      value: 0.00000001117587
       objectReference: {fileID: 0}
     - target: {fileID: 5700581348134222581, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
@@ -2193,7 +2193,7 @@ PrefabInstance:
     - target: {fileID: 6373056576219300740, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000074505797
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6373056576283516559, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
@@ -2268,7 +2268,7 @@ PrefabInstance:
     - target: {fileID: 6373056577510414964, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12066457
+      value: 0.12066458
       objectReference: {fileID: 0}
     - target: {fileID: 6373056577510414964, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
@@ -2278,7 +2278,7 @@ PrefabInstance:
     - target: {fileID: 6373056577510414964, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000037252899
+      value: 0.00000001117587
       objectReference: {fileID: 0}
     - target: {fileID: 7236311197108384598, guid: 97cc3ea5b18dd6c419a99da08277b6cb,
         type: 3}
@@ -3920,7 +3920,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 711856224040728584, guid: 5d54feeb4de49bb43af51891abc94ff3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -6727,11 +6728,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92baca152c6af614c965f2943fffc6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2012143707}
+  player: {fileID: 2012143721}
   checkpoints:
   - {fileID: 1685714779}
   vectorPoint: {x: 0, y: 0, z: 0}
-  dead: 2.5
+  dead: -2.5
+--- !u!4 &2012143721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1120486489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2044962962 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eb6e0797b06a6444c9c53e5a7558b735,
@@ -7208,17 +7215,17 @@ PrefabInstance:
     - target: {fileID: 2146925323398576405, guid: 3e87d38c63a83b3429ffa911af553c2a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.382
       objectReference: {fileID: 0}
     - target: {fileID: 2146925323398576405, guid: 3e87d38c63a83b3429ffa911af553c2a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.919
       objectReference: {fileID: 0}
     - target: {fileID: 2146925323398576405, guid: 3e87d38c63a83b3429ffa911af553c2a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -8.006
       objectReference: {fileID: 0}
     - target: {fileID: 2146925323398576405, guid: 3e87d38c63a83b3429ffa911af553c2a,
         type: 3}

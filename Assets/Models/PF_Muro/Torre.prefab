@@ -320,7 +320,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4cfc6d916f32182439ed9384860ebe47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4cfc6d916f32182439ed9384860ebe47,
         type: 3}
@@ -372,16 +372,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4791300549530949414, guid: 4cfc6d916f32182439ed9384860ebe47,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d4a17043079cc64c947ef9867508cf8, type: 2}
     - target: {fileID: 919132149155446097, guid: 4cfc6d916f32182439ed9384860ebe47,
         type: 3}
       propertyPath: m_Name
-      value: Predio Variant
+      value: Torre
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4cfc6d916f32182439ed9384860ebe47,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4321514657177891973, guid: 4cfc6d916f32182439ed9384860ebe47,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f514a1fd8e4248b44aa4a3f9d7ad54ad, type: 2}
     - target: {fileID: 6014503084441653313, guid: 4cfc6d916f32182439ed9384860ebe47,
         type: 3}
       propertyPath: m_StaticEditorFlags
