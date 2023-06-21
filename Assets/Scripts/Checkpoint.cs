@@ -19,6 +19,7 @@ public class Checkpoint : MonoBehaviour
         {
             player.transform.position = vectorPoint;
         }
+        print(vectorPoint);
     }
 
     private void OnTriggerEnter(Collider other)
