@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 4020658127358694921}
   - component: {fileID: 6705803933003711290}
   m_Layer: 0
-  m_Name: Aj (1)
+  m_Name: Jogador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
