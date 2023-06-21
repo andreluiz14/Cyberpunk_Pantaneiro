@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class HealthController : MonoBehaviour
 {
+    public static HealthController instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public int currentHealth, maxHealth;
 
     // Start is called before the first frame update

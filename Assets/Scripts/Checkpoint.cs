@@ -18,7 +18,7 @@ public class Checkpoint : MonoBehaviour
         if (player.position.y < dead)
         {
             player.position = vectorPoint;
-            print(dead);
+            HealthController.instance.DealDamage();
         }
     }
 
