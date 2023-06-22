@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 2601167514310611300}
   - component: {fileID: 3723919383439546859}
   - component: {fileID: 6153289585121824464}
+  - component: {fileID: 3217445880638344804}
   m_Layer: 0
   m_Name: Spotlight and Beam
   m_TagString: Untagged
@@ -152,7 +153,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 5
   m_Range: 50.88
   m_SpotAngle: 13.877689
   m_InnerSpotAngle: 0
@@ -247,7 +248,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  intensityFromLight: 1
+  intensityFromLight: 0
   intensityModeAdvanced: 0
   intensityInside: 1
   intensityOutside: 1
@@ -309,6 +310,32 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &3217445880638344804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6809562839191109833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39f0f7e17f11f2448932da58e9b63d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha: 0.5
+  size: 0.01
+  direction: 0
+  velocity: {x: 0, y: 0, z: 0.03}
+  speed: 0.03
+  density: 5
+  spawnDistanceRange:
+    m_MinValue: 0
+    m_MaxValue: 1
+  spawnMinDistance: 0
+  spawnMaxDistance: 0.7
+  cullingEnabled: 1
+  cullingMaxDistance: 10
+  m_AlphaAdditionalRuntime: 1
 --- !u!1001 &7062050481359201419
 PrefabInstance:
   m_ObjectHideFlags: 0

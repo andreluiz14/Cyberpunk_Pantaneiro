@@ -18,13 +18,15 @@ public class Checkpoint : MonoBehaviour
         if (player.position.y < dead)
         {
             player.position = vectorPoint;
-            HealthController.instance.DealDamage();
+            //HealthController.instance.DealDamage();
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        vectorPoint = player.position;
-        Destroy(other.gameObject);
+        if (other.CompareTag("Point"))
+        {
+            vectorPoint = player.position;
+        }
     }
 }
