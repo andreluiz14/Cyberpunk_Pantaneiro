@@ -273,8 +273,8 @@ MonoBehaviour:
   glareFrontal: 0.27
   glareBehind: 0.27
   fresnelPow: 4.9
-  noiseMode: 0
-  noiseIntensity: 0.5
+  noiseMode: 1
+  noiseIntensity: 0.35
   noiseScaleUseGlobal: 1
   noiseScaleLocal: 0.5
   noiseVelocityUseGlobal: 1
