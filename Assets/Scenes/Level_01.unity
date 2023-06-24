@@ -10216,6 +10216,178 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 692751325}
   m_SourcePrefab: {fileID: 100100000, guid: ac8e6338118addd44af5294b4a237761, type: 3}
+--- !u!1001 &395477253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1702325281}
+    m_Modifications:
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 7073549566532742878}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: tempoEntreDialogos
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[0]
+      value: "Meu av\xF4 me disse que quando ele era mais novo todas as crian\xE7as
+        tinham que ir para a escola."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[1]
+      value: Todas? E quem pescava?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[2]
+      value: Os adultos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[3]
+      value: "E n\xE3o era perigoso para eles?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[4]
+      value: "Ele disse que n\xE3o. N\xE3o tinha tanta contamina\xE7\xE3o e nem vit\xF3rias-r\xE9gias
+        carn\xEDvoras."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[5]
+      value: "Ele disse que n\xE3o. N\xE3o tinha tanta contamina\xE7\xE3o e nem vit\xF3rias-r\xE9gias
+        carn\xEDvoras."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[6]
+      value: Parece mentira
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -80.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 56.214535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752509431395764184, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99114996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13274753
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25d46b6db81452d4884595576043b4bc, type: 3}
+--- !u!4 &395477254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 395477253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &396401686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31243,27 +31415,144 @@ PrefabInstance:
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.size
-      value: 4
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: tempoEntreDialogos
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.data[0]
-      value: Aqui o Ivan Morre
+      value: "Voc\xEA achou mesmo que eu n\xE3o descobriria?"
       objectReference: {fileID: 0}
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.data[1]
-      value: Pobre coitado
+      value: "Victor! H\xE1 quanto tempo!! N\xE3o descobriria o que?"
       objectReference: {fileID: 0}
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.data[2]
-      value: Pra que isso Carlos
+      value: "N\xE3o faz nem uma semana, e voc\xEA sabe do que estou falando."
       objectReference: {fileID: 0}
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.data[3]
-      value: Quanta maldade
+      value: "N\xE3o me diga que aquele rim n\xE3o foi compat\xEDvel?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[4]
+      value: "Compat\xEDvel? Ele tinha tantas pedras que se eu largasse ele na rua
+        dos qu\xEDmicos ele seria fumado em menos de 15 segundos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[5]
+      value: "Compat\xEDvel? Ele tinha tantas pedras que se eu largasse ele na rua
+        dos qu\xEDmicos ele seria fumado em menos de 15 segundos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[6]
+      value: "Mas tem um problema pior, o m\xE9dico disse que encontrou tra\xE7os
+        de radioatividade nele."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[7]
+      value: "Aparentemente esse rim viajou pelas am\xE9ricas antes de vir para Neo
+        Corumb\xE1."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[8]
+      value: "Sei n\xE3o hein, t\xF4 achando que voc\xEA deveria trazer o m\xE9dico
+        aqui e fazer ele mostrar essa tal radia\xE7\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[9]
+      value: "Vai que ele disse isso s\xF3 pra ficar com o rim e vender pra outra
+        pessoa?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[10]
+      value: "T\xE1 certo, era o rim de um rato, mas e da\xED? Parecia saud\xE1vel
+        o suficiente para manter seu filho vivo at\xE9 eu encontrar outro doador!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[11]
+      value: "T\xE1 certo, era o rim de um rato, mas e da\xED? Parecia saud\xE1vel
+        o suficiente para manter seu filho vivo at\xE9 eu encontrar outro doador!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[12]
+      value: "Se voc\xEA acreditasse nisso n\xE3o teria aceitado o pagamento e parado
+        de procurar. Podem levar ele ao cais e jogar para uma vit\xF3ria-r\xE9gia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[13]
+      value: "Se voc\xEA acreditasse nisso n\xE3o teria aceitado o pagamento e parado
+        de procurar. Podem levar ele ao cais e jogar para uma vit\xF3ria-r\xE9gia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[14]
+      value: "Victor, eu devolvo seu dinheiro, n\xE3o tem problema, eu ainda nem
+        gastei nada."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[15]
+      value: "Eu vou passar na sua casa pegar depois que fizer de voc\xEA em um exemplo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[16]
+      value: "Como voc\xEA vai me fazer de exemplo se sobrar apenas meus ossos? Ningu\xE9m
+        nunca vai saber como ou porque eu morri, ou ent\xE3o voc\xEA seria preso."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[17]
+      value: "Como voc\xEA vai me fazer de exemplo se sobrar apenas meus ossos? Ningu\xE9m
+        nunca vai saber como ou porque eu morri, ou ent\xE3o voc\xEA seria preso."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[18]
+      value: "Preso? Dois desses 3 capangas ao seu redor s\xE3o da pol\xEDcia. L\xE1
+        fora tem mais deles."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[19]
+      value: "Beleza, eu vacilei, mas voc\xEA vai mesmo jogar dois rins saud\xE1veis
+        para uma vit\xF3ria-r\xE9gia?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[20]
+      value: "Qual \xE9 Victor? A vida do seu filho vale mais que um recado. E j\xE1
+        que voc\xEA tem a pol\xEDcia no bolso, n\xE3o precisa me matar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[21]
+      value: "A cicatriz que ficar da remo\xE7\xE3o do meu rim, servir\xE1 de recado."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[22]
+      value: "Tragam ele de volta e amarrem na cadeira. E voc\xEA, ligue para o Doutor.
+        Diga para que ele venha r\xE1pido."
       objectReference: {fileID: 0}
     - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
@@ -31323,7 +31612,7 @@ PrefabInstance:
     - target: {fileID: 5752509431395764184, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: m_Name
-      value: Dialogo (1)
+      value: Victor
       objectReference: {fileID: 0}
     - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
@@ -41841,6 +42130,190 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1321460758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1523094807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1702325281}
+    m_Modifications:
+    - target: {fileID: 3489158171912150422, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489158171912150422, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 7073549566532742878}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[0]
+      value: "P\xF4 bixo, vamos jogar RPG"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[1]
+      value: Desiste dessa busca
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[2]
+      value: "Esquece o trabalho, isso n\xE3o da futuro"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: textos.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -108.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98284876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.18441355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -21.254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752509431395764184, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Vilao (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98146504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.19164132
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.189
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 22.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98512244
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.17185408
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712651383164084107, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 19.791
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863948719302623169, guid: 25d46b6db81452d4884595576043b4bc,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25d46b6db81452d4884595576043b4bc, type: 3}
+--- !u!4 &1523094808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4220248003722937622, guid: 25d46b6db81452d4884595576043b4bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1523094807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1526072096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46989,6 +47462,8 @@ Transform:
   - {fileID: 165032414282444669}
   - {fileID: 1126337988}
   - {fileID: 802332908}
+  - {fileID: 1523094808}
+  - {fileID: 395477254}
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48558,7 +49033,7 @@ PrefabInstance:
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: textos.Array.data[1]
-      value: "A corps aaaa j\xE1 fez o servi\xE7o"
+      value: "O pessoal da PanBev j\xE1 fez o servi\xE7o"
       objectReference: {fileID: 0}
     - target: {fileID: 3928772227749832857, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
@@ -48628,7 +49103,7 @@ PrefabInstance:
     - target: {fileID: 5752509431395764184, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
       propertyPath: m_Name
-      value: Dialogo (2)
+      value: Vilao
       objectReference: {fileID: 0}
     - target: {fileID: 6628442452134542377, guid: 25d46b6db81452d4884595576043b4bc,
         type: 3}
@@ -60453,7 +60928,7 @@ PrefabInstance:
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000076293945
+      value: 0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60468,22 +60943,22 @@ PrefabInstance:
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9903343
+      value: 0.10921995
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1387012
+      value: 0.015296804
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000059604638
+      value: 0.98429316
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210719235945, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.13785514
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210719235950, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60533,7 +61008,7 @@ PrefabInstance:
     - target: {fileID: 1199234210808078973, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.87
+      value: 48.775425
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210808078973, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60543,7 +61018,7 @@ PrefabInstance:
     - target: {fileID: 1199234210808078973, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.43900204
+      value: -0.6812897
       objectReference: {fileID: 0}
     - target: {fileID: 1199234210808078973, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60583,7 +61058,7 @@ PrefabInstance:
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000038146973
+      value: 0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60598,22 +61073,22 @@ PrefabInstance:
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.994719
+      value: 0.10970347
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.102635846
+      value: 0.011319301
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000008940697
+      value: 0.9886511
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211835573673, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000037252903
+      value: -0.10200974
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211835573678, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60623,7 +61098,7 @@ PrefabInstance:
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000038146973
+      value: 0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -60638,22 +61113,22 @@ PrefabInstance:
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99269336
+      value: 0.10948008
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12066457
+      value: 0.013307599
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.9866379
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211997230745, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000037252899
+      value: -0.119928524
       objectReference: {fileID: 0}
     - target: {fileID: 1199234211997230750, guid: e87f40bd1cceafe4995d1684901b288b,
         type: 3}
@@ -61233,8 +61708,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5732190330661375916}
-  m_LocalRotation: {x: 0.12066458, y: -0.000000119209275, z: 0.0000000074505797, w: 0.9926933}
-  m_LocalPosition: {x: -7.87, y: -1.632, z: 0.43900204}
+  m_LocalRotation: {x: 0.013307603, y: 0.9866379, z: -0.11992854, w: 0.10948008}
+  m_LocalPosition: {x: 48.775425, y: -1.632, z: -0.6812897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61307,7 +61782,7 @@ PrefabInstance:
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.23
+      value: 25.18
       objectReference: {fileID: 0}
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
@@ -61317,12 +61792,12 @@ PrefabInstance:
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.68
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.7807772
       objectReference: {fileID: 0}
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
@@ -61332,7 +61807,7 @@ PrefabInstance:
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0.6248095
       objectReference: {fileID: 0}
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
@@ -61347,7 +61822,7 @@ PrefabInstance:
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 77.336
       objectReference: {fileID: 0}
     - target: {fileID: 7126395027545918581, guid: 5d54feeb4de49bb43af51891abc94ff3,
         type: 3}
